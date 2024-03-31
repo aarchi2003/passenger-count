@@ -1,0 +1,45 @@
+body{
+    background-image: url("station.jpg");
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div{
+    height: 550px;
+    width: 600px;
+    margin-top: 50px;
+    border: white 3px solid;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.2);
+}
+h1{
+    margin: 30px;
+    color: black;
+    font-size: 80px;
+}
+h2{
+    margin: 20px;
+    color: beige;
+    font-size: 70px;
+}
+p{
+    font-weight: bolder;
+}
+button{
+    color:white;
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+}
+#increment-btn{
+    background-color:  chartreuse;
+}
+#save-btn{
+    background-color:  cornflowerblue;
+}
